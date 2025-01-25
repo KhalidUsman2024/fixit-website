@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+    
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="contact.html">Contact</a></div>
+            <div><a href="portfolio.html">Portfolio</a></div>
+            <div><a href="blog.html">Blog</a></div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+      
+    <section class="contact">
+
+        <form action="/submit" method="post">
+            
+            <label for="username" class="form-font">Username:</label><br>
+            <input type="text" id="username" name="username" required placeholder="Enter Your Name"><br><br>
+    
+            
+            <label for="mobile" class="form-font">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required placeholder="+92-00000000"><br><br>
+    
+           
+            <label for="email" class="form-font">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="abc@gmail.com"><br><br>
+    
+           
+            <label for="message" class="form-font">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="30" required placeholder="Leave a message--"></textarea><br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9691.51872470828!2d71.50234802572464!3d34.00005844976396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d9171946c46d21%3A0xde4e01208a4d584a!2sGul%20Haji%20Plaza!5e0!3m2!1sen!2s!4v1737699224472!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 FIXIT All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
